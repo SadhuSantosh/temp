@@ -1,0 +1,28 @@
+SSH keys--------------------------------------------------------------
+SSH Keys are used to establish secure client-server connections via SSH (shell acces) to running instances in the cloud. ... The SSH key is passed directly into an instance in order to provide root login access to the machine via SSH.
+Amazon AWS uses key pair to encrypt and decrypt login information. A sender uses a public key to encrypt data, which its receiver then decrypts using another private key. These two keys, public and private, are known as a key pair. You need a key pair to be able to connect to your instances.
+
+sudo--------------------------------------------------------------------
+Whenever a user tries to install, remove or change any piece of software, he has to have the root privileges to perform such tasks. The sudo command is used to give such permissions to any particular command that a user wants to execute once the user enters a user password to give system based permissions.
+
+which OS is installed?--------------------------------------------------
+desktop pic!! which OS installed...
+KERNAL?
+Kernel is central component of an operating system that manages operations of computer and hardware. It basically manages operations of memory and CPU time. It is core component of an operating system. Kernel acts as a bridge between applications and data processing performed at hardware level using inter-process communication and system calls.
+
+Kernel loads first into memory when an operating system is loaded and remains into memory until operating system is shut down again. It is responsible for various tasks such as disk management, task management, and memory management.
+
+It decides which process should be allocated to processor to execute and which process should be kept in main memory to execute. It basically acts as an interface between user applications and hardware. The major aim of kernel is to manage communication between software i.e. user-level applications and hardware i.e., CPU and disk memory.
+
+server configurations---------------------------------------------------
+vCPU-virtual cpu for the cloud virtual machine.assigned-1 for installed linux server 
+Amazon Elastic Block Store (EBS)-is an easy to use, high performance block storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at any scale.
+GB (Gigabyte) and GiB (Gibibyte)- are two different digital data storage scales defined by the International Electrotechnical Commission (IEC). In short - GiB is base 2, GB is base 10. GiB = 2 to the 30th power (1,073,741,824) bytes (base 2) GB = 10 to the 9th power (1,000,000,000) bytes (base 10)
+------------------------------------------------------------------------
+stages of server(start, stop, hibernate, reboot, terminate)
+Overview of hibernation---
+When you initiate hibernation, the instance moves to the stopping state. Amazon EC2 signals the operating system to perform hibernation (suspend-to-disk). The hibernation freezes all of the processes, saves the contents of the RAM to the EBS root volume, and then performs a regular shutdown.
+------------------------------------------------------------------------
+CPU instance-
+t2micro for free tier, intel, xenon processers(burstable)
+T2 instances are Burstable Performance Instances that provide a baseline level of CPU performance with the ability to burst above the baseline. The baseline performance and ability to burst are governed by CPU Credits. T2 instances accumulate CPU Credits when they are idle, and consume CPU Credits when they are active.
