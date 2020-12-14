@@ -2,6 +2,10 @@ SSH keys--------------------------------------------------------------
 SSH Keys are used to establish secure client-server connections via SSH (shell acces) to running instances in the cloud. ... The SSH key is passed directly into an instance in order to provide root login access to the machine via SSH.
 Amazon AWS uses key pair to encrypt and decrypt login information. A sender uses a public key to encrypt data, which its receiver then decrypts using another private key. These two keys, public and private, are known as a key pair. You need a key pair to be able to connect to your instances.
 
+
+
+
+
 sudo--------------------------------------------------------------------
 Whenever a user tries to install, remove or change any piece of software, he has to have the root privileges to perform such tasks. The sudo command is used to give such permissions to any particular command that a user wants to execute once the user enters a user password to give system based permissions.
 
